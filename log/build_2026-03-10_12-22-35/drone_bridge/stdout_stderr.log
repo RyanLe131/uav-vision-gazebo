@@ -1,0 +1,46 @@
+running egg_info
+creating ../../../build/drone_bridge/drone_bridge.egg-info
+writing ../../../build/drone_bridge/drone_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../../build/drone_bridge/drone_bridge.egg-info/dependency_links.txt
+writing entry points to ../../../build/drone_bridge/drone_bridge.egg-info/entry_points.txt
+writing requirements to ../../../build/drone_bridge/drone_bridge.egg-info/requires.txt
+writing top-level names to ../../../build/drone_bridge/drone_bridge.egg-info/top_level.txt
+writing manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ryanleai/ROSpack/build/drone_bridge/build
+creating /home/ryanleai/ROSpack/build/drone_bridge/build/lib
+creating /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+copying drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+copying drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+copying drone_bridge/opencv_viewer.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+copying drone_bridge/__init__.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+running install
+running install_lib
+creating /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/opencv_viewer.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/__init__.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/gz_bridge.launch.py to gz_bridge.launch.cpython-310.pyc
+byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/camera_view.launch.py to camera_view.launch.cpython-310.pyc
+byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/opencv_viewer.launch.py to opencv_viewer.launch.cpython-310.pyc
+byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index
+creating /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index/resource_index
+creating /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index/resource_index/packages
+copying resource/drone_bridge -> /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge
+creating /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+copying drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+copying drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+copying drone_bridge/opencv_viewer.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+creating /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/scripts
+copying scripts/camera_viewer.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/scripts
+running install_egg_info
+Copying ../../../build/drone_bridge/drone_bridge.egg-info to /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ryanleai/ROSpack/build/drone_bridge/install.log'

@@ -1,0 +1,48 @@
+[2.553s] Invoking command in '/home/ryanleai/ROSpack/ros2_ws/src/drone_bridge': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ryanleai/ROSpack/build/drone_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_bridge build --build-base /home/ryanleai/ROSpack/build/drone_bridge/build install --record /home/ryanleai/ROSpack/build/drone_bridge/install.log --single-version-externally-managed install_data
+[2.888s] running egg_info
+[2.889s] creating ../../../build/drone_bridge/drone_bridge.egg-info
+[2.889s] writing ../../../build/drone_bridge/drone_bridge.egg-info/PKG-INFO
+[2.890s] writing dependency_links to ../../../build/drone_bridge/drone_bridge.egg-info/dependency_links.txt
+[2.890s] writing entry points to ../../../build/drone_bridge/drone_bridge.egg-info/entry_points.txt
+[2.890s] writing requirements to ../../../build/drone_bridge/drone_bridge.egg-info/requires.txt
+[2.890s] writing top-level names to ../../../build/drone_bridge/drone_bridge.egg-info/top_level.txt
+[2.890s] writing manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+[2.892s] reading manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+[2.893s] writing manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+[2.893s] running build
+[2.893s] running build_py
+[2.894s] creating /home/ryanleai/ROSpack/build/drone_bridge/build
+[2.894s] creating /home/ryanleai/ROSpack/build/drone_bridge/build/lib
+[2.894s] creating /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+[2.894s] copying drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+[2.894s] copying drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+[2.894s] copying drone_bridge/opencv_viewer.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+[2.894s] copying drone_bridge/__init__.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+[2.894s] running install
+[2.894s] running install_lib
+[2.895s] creating /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+[2.895s] copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+[2.895s] copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+[2.896s] copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/opencv_viewer.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+[2.896s] copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/__init__.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+[2.896s] byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/gz_bridge.launch.py to gz_bridge.launch.cpython-310.pyc
+[2.896s] byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/camera_view.launch.py to camera_view.launch.cpython-310.pyc
+[2.897s] byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/opencv_viewer.launch.py to opencv_viewer.launch.cpython-310.pyc
+[2.897s] byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/__init__.py to __init__.cpython-310.pyc
+[2.897s] running install_data
+[2.897s] creating /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index
+[2.898s] creating /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index/resource_index
+[2.898s] creating /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index/resource_index/packages
+[2.898s] copying resource/drone_bridge -> /home/ryanleai/ROSpack/install/drone_bridge/share/ament_index/resource_index/packages
+[2.898s] copying package.xml -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge
+[2.898s] creating /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+[2.898s] copying drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+[2.898s] copying drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+[2.899s] copying drone_bridge/opencv_viewer.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+[2.899s] creating /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/scripts
+[2.899s] copying scripts/camera_viewer.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/scripts
+[2.899s] running install_egg_info
+[2.902s] Copying ../../../build/drone_bridge/drone_bridge.egg-info to /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge-0.0.0-py3.10.egg-info
+[2.903s] running install_scripts
+[2.929s] writing list of installed files to '/home/ryanleai/ROSpack/build/drone_bridge/install.log'
+[2.964s] Invoked command in '/home/ryanleai/ROSpack/ros2_ws/src/drone_bridge' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ryanleai/ROSpack/build/drone_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_bridge build --build-base /home/ryanleai/ROSpack/build/drone_bridge/build install --record /home/ryanleai/ROSpack/build/drone_bridge/install.log --single-version-externally-managed install_data

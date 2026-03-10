@@ -1,0 +1,24 @@
+[0.889s] Invoking command in '/home/ryanleai/ROSpack/ros2_ws/src/drone_bridge': PYTHONPATH=/home/ryanleai/ROSpack/build/drone_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_bridge build --build-base /home/ryanleai/ROSpack/build/drone_bridge/build install --record /home/ryanleai/ROSpack/build/drone_bridge/install.log --single-version-externally-managed install_data
+[1.202s] running egg_info
+[1.202s] writing ../../../build/drone_bridge/drone_bridge.egg-info/PKG-INFO
+[1.203s] writing dependency_links to ../../../build/drone_bridge/drone_bridge.egg-info/dependency_links.txt
+[1.203s] writing entry points to ../../../build/drone_bridge/drone_bridge.egg-info/entry_points.txt
+[1.203s] writing requirements to ../../../build/drone_bridge/drone_bridge.egg-info/requires.txt
+[1.203s] writing top-level names to ../../../build/drone_bridge/drone_bridge.egg-info/top_level.txt
+[1.204s] reading manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+[1.205s] writing manifest file '../../../build/drone_bridge/drone_bridge.egg-info/SOURCES.txt'
+[1.205s] running build
+[1.205s] running build_py
+[1.206s] copying drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge
+[1.206s] running install
+[1.206s] running install_lib
+[1.207s] copying /home/ryanleai/ROSpack/build/drone_bridge/build/lib/drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge
+[1.207s] byte-compiling /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge/gz_bridge.launch.py to gz_bridge.launch.cpython-310.pyc
+[1.208s] running install_data
+[1.208s] copying drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/install/drone_bridge/share/drone_bridge/launch
+[1.208s] running install_egg_info
+[1.211s] removing '/home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[1.211s] Copying ../../../build/drone_bridge/drone_bridge.egg-info to /home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages/drone_bridge-0.0.0-py3.10.egg-info
+[1.212s] running install_scripts
+[1.241s] writing list of installed files to '/home/ryanleai/ROSpack/build/drone_bridge/install.log'
+[1.263s] Invoked command in '/home/ryanleai/ROSpack/ros2_ws/src/drone_bridge' returned '0': PYTHONPATH=/home/ryanleai/ROSpack/build/drone_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryanleai/ROSpack/install/drone_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_bridge build --build-base /home/ryanleai/ROSpack/build/drone_bridge/build install --record /home/ryanleai/ROSpack/build/drone_bridge/install.log --single-version-externally-managed install_data
