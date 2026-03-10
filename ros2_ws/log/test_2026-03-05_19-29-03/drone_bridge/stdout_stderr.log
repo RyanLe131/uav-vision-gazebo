@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge/.pytest_cache
+rootdir: /home/ryanleai/ROSpack/ros2_ws/src/drone_bridge
+plugins: ament-lint-0.12.15, launch-testing-ros-0.19.13, ament-copyright-0.12.15, ament-pep257-0.12.15, ament-xmllint-0.12.15, launch-testing-1.0.14, ament-flake8-0.12.15, cov-3.0.0, mock-3.6.1, timeout-2.1.0, colcon-core-0.20.1
+collected 3 items
+
+test/test_copyright.py s                                                 [ 33%]
+test/test_flake8.py .                                                    [ 66%]
+test/test_pep257.py .                                                    [100%]
+
+- generated xml file: /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge/pytest.xml -
+========================= 2 passed, 1 skipped in 0.50s =========================

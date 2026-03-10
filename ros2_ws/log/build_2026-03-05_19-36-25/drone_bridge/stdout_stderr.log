@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing drone_bridge.egg-info/PKG-INFO
+writing dependency_links to drone_bridge.egg-info/dependency_links.txt
+writing entry points to drone_bridge.egg-info/entry_points.txt
+writing requirements to drone_bridge.egg-info/requires.txt
+writing top-level names to drone_bridge.egg-info/top_level.txt
+reading manifest file 'drone_bridge.egg-info/SOURCES.txt'
+writing manifest file 'drone_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ryanleai/ROSpack/ros2_ws/install/drone_bridge/lib/python3.10/site-packages/drone-bridge.egg-link (link to .)
+Installing camera_viewer script to /home/ryanleai/ROSpack/ros2_ws/install/drone_bridge/lib/drone_bridge
+
+Installed /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge
+running symlink_data
+symbolically linking /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge/resource/drone_bridge -> /home/ryanleai/ROSpack/ros2_ws/install/drone_bridge/share/ament_index/resource_index/packages
+symbolically linking /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge/package.xml -> /home/ryanleai/ROSpack/ros2_ws/install/drone_bridge/share/drone_bridge
+symbolically linking /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge/drone_bridge/gz_bridge.launch.py -> /home/ryanleai/ROSpack/ros2_ws/install/drone_bridge/share/drone_bridge/launch
+symbolically linking /home/ryanleai/ROSpack/ros2_ws/build/drone_bridge/drone_bridge/camera_view.launch.py -> /home/ryanleai/ROSpack/ros2_ws/install/drone_bridge/share/drone_bridge/launch
