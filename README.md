@@ -1,5 +1,15 @@
 # Drone Orbit & Data Collection
 
+## Demo Video
+
+<!-- After uploading your video, replace the URL below.
+     Run:  ./scripts/upload_demo_video.sh path/to/demo.mp4
+     Then paste the printed URL here. -->
+
+https://github.com/RyanLe131/uav-vision-gazebo/releases/download/demo-v1/demo.mp4
+
+---
+
 ## Overview
 
 `orbit_detection.py` does 3 things simultaneously in a single terminal:
