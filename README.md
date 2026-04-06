@@ -2,11 +2,7 @@
 
 ## Demo Video
 
-<!-- After uploading your video, replace the URL below.
-     Run:  ./scripts/upload_demo_video.sh path/to/demo.mp4
-     Then paste the printed URL here. -->
-
-https://github.com/RyanLe131/uav-vision-gazebo/releases/download/demo-v1/demo.mp4
+https://github.com/RyanLe131/uav-vision-gazebo/releases/download/demo-v1/2026-04-06.19-49-11.mp4
 
 ---
 
