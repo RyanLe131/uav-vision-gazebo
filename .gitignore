@@ -1,0 +1,37 @@
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+*.so
+
+# YOLO / large model weights
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# colcon internal markers (keep COLCON_IGNORE committed if desired)
+# COLCON_IGNORE

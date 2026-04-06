@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="baylands_01">
+    <!-- Baylands terrain mesh (roads, grass, paths, parking lot, water areas).
+         Originally a Gazebo Classic model — migrated to Gazebo Harmonic (ogre2).
+
+         DAE world-space analysis:
+           X range: -391 to +567,  center ~+88
+           Y range: -310 to +318,  center ~+4
+           Z range:  -18 to  +18   (flat terrain)
+           ParkingMarkings node at DAE coords (-306, -72, +0.74)
+
+         Pose: shift +306 X, +72 Y so parking lot center aligns with world origin.
+               shift -0.74 Z so ground surface sits at z=0.
+    -->
+    <pose>306 72 -0.74 0 0 0</pose>
+    <static>true</static>
+
+    <link name="body">
+
+      <!-- Visual: full terrain mesh with embedded textures from meshes/Textures/.
+           Harmonic (ogre2) reads texture paths directly from the .dae file.
+           No .material script needed. -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://baylands_1/meshes/baylands_03.dae</uri>
+          </mesh>
+        </geometry>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+
+      <!-- Collision: flat box covering the terrain footprint.
+           Terrain is nearly flat (Z range +-18m).
+           Box covers full mesh extent: X=958m (-391 to +567), Y=628m (-310 to +318).
+           Pose is in link/DAE frame: center X=(−391+567)/2=88, Y=(−310+318)/2=4.
+           Box z=-1 (1m thick slab below z=0) ensures solid ground contact. -->
+      <collision name="collision">
+        <pose>88 4 -1 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>958 628 2.0</size>
+          </box>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>
