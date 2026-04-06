@@ -2,7 +2,7 @@
 
 ## Demo Video
 
-https://github.com/RyanLe131/uav-vision-gazebo/releases/download/demo-v1/2026-04-06.19-49-11.mp4
+[![Demo Video](https://img.youtube.com/vi/d-m64OR6nMQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=d-m64OR6nMQ)
 
 ---
 
